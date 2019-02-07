@@ -1,7 +1,7 @@
 var playlist = {
-  artist1: "song1",
-  artist2: "song2",
-  artist3: "song3"
+  "My Bloody Valentine": "song1",
+  "Phil Ochs": "song2",
+  "Slowdive": "song3"
 };
 
 function updatePlaylist(thePlaylist, artistName, songTitle) {
@@ -15,4 +15,4 @@ function removeFromPlaylist(thePlaylist, artistName) {
   return thePlaylist;
 }
 
-removeFromPlaylist(playlist, "artist2");
+removeFromPlaylist(playlist, "My Bloody Valentine", "Phil Ochs");
